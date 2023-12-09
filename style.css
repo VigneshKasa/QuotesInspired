@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Freehand&family=Hachi+Maru+Pop&family=Lobster&family=Lora:ital@1&family=Orbitron&family=Patrick+Hand+SC&family=Pixelify+Sans&family=Poppins:wght@300;400&display=swap');
+*{
+    top:0;
+    margin:0;
+    padding: 0;
+    font-family:"Patrick Hand SC";
+}
+.nav{
+    height:100px;
+    background-color: #0d1321;
+    color:#ffc600;
+    display: flex;
+    font-family:"againts";
+    font-size:70px;
+    align-items: center;
+    justify-content: center;
+}
+.bookcontainerbox{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #495057;
+     height: 300px;
+     align-items: center;
+}
+.bookcontainer{
+    border-radius:5px;
+    width: 200px;
+    height: 250px;
+}
+.bookcontainer:hover{
+    transform: scale(1.05);
+    transition:400ms;
+}
+
+.bookname{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height:55px;
+    width: 200px;;
+    display: flex;
+    color: white;
+    font-size:20px;
+    justify-content:center;
+    align-items: center;
+    text-align: center; 
+    text-overflow: ellipsis;
+}
+.book{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+.quotecontainer{
+    background-color:#6c757d;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backgroundimage{
+    background-image:url("https://images.pexels.com/photos/990432/pexels-photo-990432.jpeg");
+    background-size:cover;
+    height:600px;
+    width:1000px;
+    box-shadow: #000000cf 0px 8px 24px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0,0.8);
+    padding: 10px;
+}
+
+.booktitle{
+    width: 500px;
+    color: grey;
+    font-size:20px;
+    text-align:right;
+    text-decoration:underline;
+}
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+    color: white;
+    max-width:600px;
+    font-size:25px;
+   
+}
+.author{
+    width: 500px;
+    color: grey;
+    font-size:20px;
+    text-align:right;
+}
+
