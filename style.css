@@ -1,5 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Freehand&family=Hachi+Maru+Pop&family=Lobster&family=Lora:ital@1&family=Orbitron&family=Patrick+Hand+SC&family=Pixelify+Sans&family=Poppins:wght@300;400&display=swap');
+@font-face {
+    font-family:"againts";
+    src: url("againts.otf");
+}
 *{
     top:0;
     margin:0;
