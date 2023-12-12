@@ -118,8 +118,6 @@
         top: 0;
         margin:0;
         padding: 0;
-        background-color: #495057;
-
     }
     .bookcontainerbox{
         height: 120px;
@@ -135,6 +133,7 @@
         width: 70px;
     }
     .backgroundimage{
+        margin-top: -400px;
         height: 200px;
         width: 380px;;
     }
@@ -148,9 +147,7 @@
         height: 70px;
         width: 250px;
     }
-    .quotecontainer{
-        height:300px;
-    }
+
     .quote{
         display: flex;
         align-items: center;
