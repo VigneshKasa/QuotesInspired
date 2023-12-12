@@ -109,4 +109,72 @@
     font-size:20px;
     text-align:right;
 }
+ @media(max-width:480px){
+    *{
+        top: 0;
+        margin:0;
+        padding: 0;
+    }
+    .bookcontainerbox{
+        height: 120px;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    .bookcontainer img{
+        height: 50px;
+    }
+    .bookcontainer{
+        height: 50px;
+        width: 70px;
+    }
+    .backgroundimage{
+        height: 200px;
+        width: 380px;;
+    }
+    
+    .bookname{
+        height:30px;
+        width:70px;
+        font-size: 6px;
+    }
+    .quotebox{
+        height: 70px;
+        width: 250px;
+    }
+    .quotecontainer{
+        height:300px;
+    }
+    .quote{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align:justify;
+        color: white;
+        font-size:8px;
+    }
 
+    .booktitle{
+        width: 200px;
+        color: grey;
+        font-size:9px;
+        text-decoration:underline;
+        text-align:right;
+
+    }
+    .author{
+        width: 200px;
+        color: grey;
+        font-size:9px;
+        text-align:right;
+    }
+    .logo{
+        visibility: hidden;
+    }
+  .nav{
+    font-size:30px;
+  }
+   #mind img{
+    width: 35px;
+   }
+ }
