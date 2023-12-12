@@ -114,6 +114,8 @@
         top: 0;
         margin:0;
         padding: 0;
+        background-color: #495057;
+
     }
     .bookcontainerbox{
         height: 120px;
